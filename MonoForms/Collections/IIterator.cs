@@ -22,6 +22,16 @@ namespace MonoForms.Collections
                 value = iterator.GetNext();
             }
         }
+
+        internal static ILinkedList<T> ToILinkedList<T>(this IEnumerable<T> numerable)
+        {
+            if (numerable.Count() == 0)
+                return new EmptyNode<T>();
+            else
+            {
+                return new Node<T>(numerable.First(), numerable.Skip(1).ToILinkedList());
+            }
+        }
     }
     internal interface IIterator<T>
     {
@@ -39,8 +49,9 @@ namespace MonoForms.Collections
         {
             if(ll is Node<T>)
             {
+                var head = ((Node<T>)ll).Head;
                 ll = ((Node<T>)ll).Tail;
-                return new Some<T>(((Node<T>)ll).Head);
+                return new Some<T>(head);
             }
             return new None<T>();
         }

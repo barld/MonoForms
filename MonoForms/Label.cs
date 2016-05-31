@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Microsoft.Xna.Framework.Graphics;
+using MonoForms.Collections;
+using Microsoft.Xna.Framework;
 
 namespace MonoForms
 {
@@ -24,6 +27,14 @@ namespace MonoForms
                 }
             }
         }
+
+        public Vector2 Position { get; set; }
+
         public event EventHandler TextChanged;
+
+        public void DisplayControl(SpriteBatch spriteBatch)
+        { 
+            spriteBatch.DrawString(Fonts.Ariel, Text, Position, Microsoft.Xna.Framework.Color.Black);
+        }
     }
 }

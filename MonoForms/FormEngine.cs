@@ -15,6 +15,7 @@ namespace MonoForms
         SpriteBatch spriteBatch;
         string title = string.Empty;
         Size size;
+        private readonly Action<SpriteBatch> onDraw;
 
         public event EventHandler SizeChanged;
 
@@ -44,9 +45,9 @@ namespace MonoForms
             }
         }
 
-        internal FormEngine() : this("MonoForm") { }
+        internal FormEngine(Action<SpriteBatch> onDraw) : this("MonoForm", onDraw) { }
 
-        internal FormEngine(string title) : base()
+        internal FormEngine(string title, Action<SpriteBatch> onDraw) : base()
         {
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
@@ -55,6 +56,7 @@ namespace MonoForms
             Window.AllowUserResizing = true;
             Window.ClientSizeChanged += Window_ClientSizeChanged;
             Title = title;
+            this.onDraw = onDraw;
         }
 
         private void Window_ClientSizeChanged(object sender, EventArgs e)
@@ -67,6 +69,7 @@ namespace MonoForms
         {
             spriteBatch = new SpriteBatch(GraphicsDevice);
             base.LoadContent();
+            Fonts.Ariel = Content.Load<SpriteFont>("Arial");
         }
 
         protected override void Update(GameTime gameTime)
@@ -79,8 +82,7 @@ namespace MonoForms
             GraphicsDevice.Clear(Microsoft.Xna.Framework.Color.LightGray);
 
             spriteBatch.Begin();
-            var font = Content.Load<SpriteFont>("Arial");
-            spriteBatch.DrawString(font, "Score", new Vector2(100, 100), Microsoft.Xna.Framework.Color.Black);
+            onDraw?.Invoke(spriteBatch);
             spriteBatch.End();
 
             base.Draw(gameTime);

@@ -51,7 +51,12 @@
   <ItemGroup>
     <Compile Include="Collections\IIterator.cs" />
     <Compile Include="Collections\LinkedList.cs" />
+    <Compile Include="ControlDisplayItem.cs" />
+    <Compile Include="Extensions\Vector2.cs" />
+    <Compile Include="Fonts.cs" />
     <Compile Include="FormEngine.cs" />
+    <Compile Include="GlobalSuppressions.cs" />
+    <Compile Include="IContainer.cs" />
     <Compile Include="IControl.cs" />
     <Compile Include="IForm.cs" />
     <Compile Include="Label.cs" />
@@ -60,6 +65,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SimpleForm.cs" />
     <Compile Include="WinFormsAdapter.cs" />
+    <Compile Include="WinformsControlTOControlFactory.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram.cd" />

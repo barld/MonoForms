@@ -7,22 +7,22 @@ using System.Threading.Tasks;
 
 namespace MonoForms.Collections
 {
-    internal interface ILinkedList<T> : IEnumerable<T>
+    public interface ILinkedList<T> : IEnumerable<T>
     {
     }
 
-    internal class Node<T>: ILinkedList<T>
+    public class Node<T>: ILinkedList<T>
     {
-        internal T Head { get; }
-        internal ILinkedList<T> Tail { get; }
+        public T Head { get; }
+        public ILinkedList<T> Tail { get; }
 
-        internal Node(T head, ILinkedList<T> tail)
+        public Node(T head, ILinkedList<T> tail)
         {
             Head = head;
             Tail = tail;
         }
 
-        internal Node(T head) : this(head, new EmptyNode<T>()) { }
+        public Node(T head) : this(head, new EmptyNode<T>()) { }
 
         public IEnumerator<T> GetEnumerator()
         {
@@ -35,7 +35,7 @@ namespace MonoForms.Collections
         }
     }
 
-    internal class EmptyNode<T> : ILinkedList<T>
+    public class EmptyNode<T> : ILinkedList<T>
     {
         public IEnumerator<T> GetEnumerator()
         {

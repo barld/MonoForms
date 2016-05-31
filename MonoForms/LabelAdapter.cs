@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 
 using System.Windows.Forms;
+using MonoForms.Extensions;
 
 namespace MonoForms
 {
@@ -15,7 +16,9 @@ namespace MonoForms
             this.wLabel = wLabel;
 
             //listen to events
+            this.Text = wLabel.Text;
             this.wLabel.TextChanged += (sender, e) => base.Text = wLabel.Text;
+            Position = wLabel.Location.ToVector2();
         }
 
         public override string Text

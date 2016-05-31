@@ -5,10 +5,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Drawing;
+using MonoForms.Collections;
 
 namespace MonoForms
 {
-    public class SimpleForm : IForm
+    public class SimpleForm : IForm, IContainer
     {
         #region private fields
         string title = "SimpleForm";
@@ -21,30 +22,42 @@ namespace MonoForms
         {
             get { return title; }
             set
-            {                
+            {
                 title = value;
-                TitleChanged?.Invoke(this, EventArgs.Empty);                             
+                TitleChanged?.Invoke(this, EventArgs.Empty);
             }
         }
 
-        internal FormEngine FormEngine { get;}
+        internal FormEngine FormEngine { get; }
 
         public Size Size
         {
+            get { return FormEngine.Size; }
+            set { FormEngine.Size = value; }
+        }
+
+        public ILinkedList<IControl> Controls
+        {
             get
             {
-                return FormEngine.Size;
+                throw new NotImplementedException();
             }
+
             set
             {
-                FormEngine.Size = value;
+                throw new NotImplementedException();
             }
         }
 
         public SimpleForm()
         {
-            FormEngine = new FormEngine();
+            FormEngine = new FormEngine(onDraw);
             FormEngine.SizeChanged += FormEngine_SizeChanged;
+        }
+
+        private void onDraw(SpriteBatch obj)
+        {
+            throw new NotImplementedException();
         }
 
         private void FormEngine_SizeChanged(object sender, EventArgs e)

@@ -1,14 +1,14 @@
 ﻿using Microsoft.Xna.Framework.Graphics;
-using MonoForms.Collections;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace MonoForms
 {
-    public interface IControl
+    static public class Fonts
     {
-        void DisplayControl(SpriteBatch spriteBatch);
+        public static SpriteFont Ariel { get; set; }
     }
 }

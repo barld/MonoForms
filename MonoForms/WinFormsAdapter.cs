@@ -4,10 +4,12 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using MonoForms.Collections;
+using Microsoft.Xna.Framework.Graphics;
 
 namespace MonoForms
 {
-    public class WinFormsAdapter : IForm
+    public class WinFormsAdapter : IForm, IContainer
     {
         string title = "SimpleForm";
         System.Windows.Forms.Form classicForm;
@@ -17,20 +19,25 @@ namespace MonoForms
 
         public WinFormsAdapter(System.Windows.Forms.Form classicForm) : base()
         {
-            FormEngine = new FormEngine();
+            FormEngine = new FormEngine(onDraw);
             FormEngine.SizeChanged += FormEngine_SizeChanged;
 
             this.classicForm = classicForm;
             classicForm.SizeChanged += ClassicForm_SizeChanged;
             FormEngine.Size = classicForm.Size;
             FormEngine.Title = classicForm.Name;
+
+            foreach(System.Windows.Forms.Control origenalControl in classicForm.Controls)
+            {
+                Controls = new Node<IControl>(WinformsControlTOControlFactory.Create(origenalControl), Controls);
+            } 
         }
 
         bool changeSizeFromClassic = false;
         private void ClassicForm_SizeChanged(object sender, EventArgs e)
         {
             changeSizeFromClassic = true;
-            FormEngine.Size = classicForm.Size;            
+            FormEngine.Size = classicForm.Size;
             //do not trigger the event other it is thriggerd twice
         }
 
@@ -67,6 +74,8 @@ namespace MonoForms
 
         internal FormEngine FormEngine { get; }
 
+        public ILinkedList<IControl> Controls { get; set; } = new EmptyNode<IControl>();
+
         public void Dispose()
         {
             ((IDisposable)FormEngine).Dispose();
@@ -75,6 +84,14 @@ namespace MonoForms
         public void Show()
         {
             FormEngine.Run();
+        }
+
+        public void onDraw(SpriteBatch spriteBatch)
+        {
+            foreach(var control in Controls)
+            {
+                control.DisplayControl(spriteBatch);
+            }
         }
     }
 }

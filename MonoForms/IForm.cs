@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Xna.Framework.Graphics;
+using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
@@ -11,6 +12,7 @@ namespace MonoForms
         string Title { get; set; }
         Size Size { get; set; }
         void Show();
+
         event EventHandler SizeChanged;
     }
 }
