@@ -49,9 +49,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbstractButton.cs" />
+    <Compile Include="Button.cs" />
+    <Compile Include="ButtonAdapter.cs" />
     <Compile Include="Collections\IIterator.cs" />
     <Compile Include="Collections\LinkedList.cs" />
+    <Compile Include="ControlDecoretors\ControlDefaultBehaviour.cs" />
+    <Compile Include="ControlDecoretors\ControlVisibilityDecorator.cs" />
+    <Compile Include="ControlDecoretors\ControlVisibleForNTime.cs" />
+    <Compile Include="ControlDecoretors\ControlVisibleOnPredicate.cs" />
     <Compile Include="ControlDisplayItem.cs" />
+    <Compile Include="Extensions\Color.cs" />
+    <Compile Include="Extensions\IEnumerable.cs" />
+    <Compile Include="Extensions\Rectangle.cs" />
     <Compile Include="Extensions\Vector2.cs" />
     <Compile Include="Fonts.cs" />
     <Compile Include="FormEngine.cs" />
@@ -73,6 +83,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ControlDecoretors" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -6,6 +6,7 @@ using System.Linq;
 using System.Text;
 using MonoForms.Collections;
 using Microsoft.Xna.Framework.Graphics;
+using MonoForms.Extensions;
 
 namespace MonoForms
 {
@@ -19,7 +20,8 @@ namespace MonoForms
 
         public WinFormsAdapter(System.Windows.Forms.Form classicForm) : base()
         {
-            FormEngine = new FormEngine(onDraw);
+            FormEngine = new FormEngine(onDraw, onUpdate);
+            FormEngine.Color = classicForm.BackColor.Convert();
             FormEngine.SizeChanged += FormEngine_SizeChanged;
 
             this.classicForm = classicForm;
@@ -31,6 +33,14 @@ namespace MonoForms
             {
                 Controls = new Node<IControl>(WinformsControlTOControlFactory.Create(origenalControl), Controls);
             } 
+        }
+
+        private void onUpdate(float dt)
+        {
+            foreach(var control in Controls)
+            {
+                control.UpdateControl(dt);
+            }
         }
 
         bool changeSizeFromClassic = false;
@@ -72,7 +82,8 @@ namespace MonoForms
             }
         }
 
-        internal FormEngine FormEngine { get; }
+        private FormEngine FormEngine { get; }
+        public Microsoft.Xna.Framework.Color Color { get; set; }
 
         public ILinkedList<IControl> Controls { get; set; } = new EmptyNode<IControl>();
 

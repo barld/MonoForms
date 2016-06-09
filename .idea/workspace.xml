@@ -1,0 +1,707 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7521b8fd-e6b0-4caa-a942-55e7a488f954" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MonoForms.sln.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MonoForms/AbstractButton.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MonoForms/ClassDiagram.cd" afterPath="$PROJECT_DIR$/MonoForms/ClassDiagram.cd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MonoForms/Extensions/Vector2.cs" afterPath="$PROJECT_DIR$/MonoForms/Extensions/Vector2.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MonoForms/FormEngine.cs" afterPath="$PROJECT_DIR$/MonoForms/FormEngine.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MonoForms/IControl.cs" afterPath="$PROJECT_DIR$/MonoForms/IControl.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MonoForms/Label.cs" afterPath="$PROJECT_DIR$/MonoForms/Label.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MonoForms/LabelAdapter.cs" afterPath="$PROJECT_DIR$/MonoForms/LabelAdapter.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MonoForms/MonoForms.csproj" afterPath="$PROJECT_DIR$/MonoForms/MonoForms.csproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MonoForms/SimpleForm.cs" afterPath="$PROJECT_DIR$/MonoForms/SimpleForm.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MonoForms/WinFormsAdapter.cs" afterPath="$PROJECT_DIR$/MonoForms/WinFormsAdapter.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MonoForms/WinformsControlTOControlFactory.cs" afterPath="$PROJECT_DIR$/MonoForms/WinformsControlTOControlFactory.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestProject/Program.cs" afterPath="$PROJECT_DIR$/TestProject/Program.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestProject/TestForm1.Designer.cs" afterPath="$PROJECT_DIR$/TestProject/TestForm1.Designer.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestProject/TestForm1.cs" afterPath="$PROJECT_DIR$/TestProject/TestForm1.cs" />
+    </list>
+    <ignored path="MonoForms.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="MonoForms" />
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.4234568">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="GlobalSuppressions.cs" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/MonoForms/GlobalSuppressions.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="256">
+                  <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="IControl.cs" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/MonoForms/IControl.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="AbstractButton.cs" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/MonoForms/AbstractButton.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="416">
+                  <caret line="35" column="49" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
+                  <folding>
+                    <marker date="1465471621189" expanded="true" signature="6:184" ph="..." />
+                    <marker date="1465471621189" expanded="true" signature="205:2467" ph="{...}" />
+                    <marker date="1465471621189" expanded="true" signature="259:2466" ph="{...}" />
+                    <marker date="1465471621189" expanded="true" signature="1233:1387" ph="{...}" />
+                    <marker date="1465471621189" expanded="true" signature="1512:2460" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Program.cs" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/TestProject/Program.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="383">
+                  <caret line="35" column="62" selection-start-line="35" selection-start-column="62" selection-end-line="35" selection-end-column="62" />
+                  <folding>
+                    <marker date="1465471938752" expanded="true" signature="6:163" ph="..." />
+                    <marker date="1465471938752" expanded="true" signature="6:192" ph="..." />
+                    <marker date="1465471938752" expanded="true" signature="6:227" ph="..." />
+                    <marker date="1465471938752" expanded="true" signature="250:1222" ph="{...}" />
+                    <marker date="1465471938752" expanded="true" signature="270:1220" ph="{...}" />
+                    <marker date="1465471938752" expanded="true" signature="316:1214" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ButtonAdapter.cs" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/MonoForms/ButtonAdapter.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="224">
+                  <caret line="14" column="84" selection-start-line="14" selection-start-column="84" selection-end-line="14" selection-end-column="84" />
+                  <folding>
+                    <marker date="1465471569804" expanded="true" signature="6:142" ph="..." />
+                    <marker date="1465471569804" expanded="true" signature="163:724" ph="{...}" />
+                    <marker date="1465471569804" expanded="true" signature="213:722" ph="{...}" />
+                    <marker date="1465471569804" expanded="true" signature="358:586" ph="{...}" />
+                    <marker date="1465471569804" expanded="true" signature="661:716" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="SimpleForm.cs" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/MonoForms/SimpleForm.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="240">
+                  <caret line="54" column="38" selection-start-line="54" selection-start-column="38" selection-end-line="54" selection-end-column="38" />
+                  <folding>
+                    <marker date="1465470764081" expanded="true" signature="6:280" ph="..." />
+                    <marker date="1465470764081" expanded="true" signature="301:1826" ph="{...}" />
+                    <marker date="1465470764081" expanded="true" signature="351:1824" ph="{...}" />
+                    <marker date="1465470764081" expanded="true" signature="366:444" ph="private fields" />
+                    <marker date="1465470764081" expanded="true" signature="1033:1222" ph="{...}" />
+                    <marker date="1465470764081" expanded="true" signature="1364:1506" ph="{...}" />
+                    <marker date="1465470764081" expanded="true" signature="1579:1655" ph="{...}" />
+                    <marker date="1465470764081" expanded="true" signature="1683:1733" ph="{...}" />
+                    <marker date="1465470764081" expanded="true" signature="1764:1818" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ControlVisibilityDecorator.cs" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/MonoForms/ControlDecoretors/ControlVisibilityDecorator.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="144">
+                  <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+                  <folding>
+                    <marker date="1465470216582" expanded="true" signature="6:70" ph="..." />
+                    <marker date="1465470216582" expanded="true" signature="109:783" ph="{...}" />
+                    <marker date="1465470216582" expanded="true" signature="174:781" ph="{...}" />
+                    <marker date="1465470216582" expanded="true" signature="283:337" ph="{...}" />
+                    <marker date="1465470216582" expanded="true" signature="398:469" ph="{...}" />
+                    <marker date="1465470216582" expanded="true" signature="514:575" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Label.cs" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/MonoForms/Label.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="352">
+                  <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+                  <folding>
+                    <marker date="1465402149177" expanded="true" signature="6:185" ph="..." />
+                    <marker date="1465402149177" expanded="true" signature="242:1088" ph="{...}" />
+                    <marker date="1465402149177" expanded="true" signature="894:1017" ph="{...}" />
+                    <marker date="1465402149177" expanded="true" signature="1062:1082" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="ControlVisibleOnPredicate.cs" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/MonoForms/ControlDecoretors/ControlVisibleOnPredicate.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="288">
+                  <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ControlDefaultBehaviour.cs" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/MonoForms/ControlDecoretors/ControlDefaultBehaviour.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="208">
+                  <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Button.cs" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/MonoForms/Button.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="32">
+                  <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+                  <folding>
+                    <marker date="1465471533307" expanded="true" signature="19:143" ph="{...}" />
+                    <marker date="1465471533307" expanded="true" signature="61:141" ph="{...}" />
+                    <marker date="1465471533307" expanded="true" signature="115:135" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ControlVisibleForNTime.cs" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/MonoForms/ControlDecoretors/ControlVisibleForNTime.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="240">
+                  <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+                  <folding>
+                    <marker date="1465472218855" expanded="true" signature="52:560" ph="{...}" />
+                    <marker date="1465472218855" expanded="true" signature="121:558" ph="{...}" />
+                    <marker date="1465472218855" expanded="true" signature="243:289" ph="{...}" />
+                    <marker date="1465472218855" expanded="true" signature="338:419" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/MonoForms/IControl.cs" />
+        <option value="$PROJECT_DIR$/MonoForms/Label.cs" />
+        <option value="$PROJECT_DIR$/MonoForms/Extensions/IEnumerable.cs" />
+        <option value="$PROJECT_DIR$/MonoForms/ControlDecoretors/ControlVisibleOnPredicate.cs" />
+        <option value="$PROJECT_DIR$/MonoForms/ControlDecoretors/ControlDefaultBehaviour.cs" />
+        <option value="$PROJECT_DIR$/MonoForms/ControlDecoretors/ControlVisibilityDecorator.cs" />
+        <option value="$PROJECT_DIR$/MonoForms/SimpleForm.cs" />
+        <option value="$PROJECT_DIR$/MonoForms/Button.cs" />
+        <option value="$PROJECT_DIR$/MonoForms/ButtonAdapter.cs" />
+        <option value="$PROJECT_DIR$/MonoForms/AbstractButton.cs" />
+        <option value="$PROJECT_DIR$/TestProject/Program.cs" />
+        <option value="$PROJECT_DIR$/MonoForms/ControlDecoretors/ControlVisibleForNTime.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>General</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MonoForms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MonoForms" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestProject" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MonoForms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MonoForms" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestProject" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Properties" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AssemblyInfo.cs" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MonoForms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MonoForms" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestProject" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="References" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MonoForms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MonoForms" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MonoForms" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MonoForms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MonoForms" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MonoForms" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="References" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="SearchEverywhereHistoryKey" value="nuge&#9;ACTION&#9;ActivateNuGetToolWindow" />
+  </component>
+  <component name="RunManager" selected=".NET Project.Default">
+    <configuration default="true" type="DotNetProject" factoryName=".NET Project">
+      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_KIND" value="None" />
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/TestProject/TestProject.csproj" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/TestProject/bin/Debug/TestProject.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestProject/bin/Debug" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue=".NET Project.Default" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7521b8fd-e6b0-4caa-a942-55e7a488f954" name="Default" comment="" />
+      <created>1465393979398</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1465393979398</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Errors in solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.49375" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.50416666" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.49375" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934782" sideWeight="0.50625" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39673913" sideWeight="0.49166667" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33804348" sideWeight="0.49583334" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors in solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32980973" sideWeight="0.50208336" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32980973" sideWeight="0.49791667" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet breakpoint">
+          <url>file://$PROJECT_DIR$/TestProject/Program.cs</url>
+          <line>32</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="4" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/MonoForms/GlobalSuppressions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MonoForms/IControl.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MonoForms/AbstractButton.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1465471621189" expanded="true" signature="6:184" ph="..." />
+            <marker date="1465471621189" expanded="true" signature="205:2467" ph="{...}" />
+            <marker date="1465471621189" expanded="true" signature="259:2466" ph="{...}" />
+            <marker date="1465471621189" expanded="true" signature="1233:1387" ph="{...}" />
+            <marker date="1465471621189" expanded="true" signature="1512:2460" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MonoForms/Label.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+          <folding>
+            <marker date="1465402149177" expanded="true" signature="6:185" ph="..." />
+            <marker date="1465402149177" expanded="true" signature="242:1088" ph="{...}" />
+            <marker date="1465402149177" expanded="true" signature="894:1017" ph="{...}" />
+            <marker date="1465402149177" expanded="true" signature="1062:1082" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MonoForms/packages.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MonoForms/GlobalSuppressions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MonoForms/IControl.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MonoForms/Label.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+          <folding>
+            <marker date="1465402149177" expanded="true" signature="6:185" ph="..." />
+            <marker date="1465402149177" expanded="true" signature="242:1088" ph="{...}" />
+            <marker date="1465402149177" expanded="true" signature="894:1017" ph="{...}" />
+            <marker date="1465402149177" expanded="true" signature="1062:1082" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MonoForms/Extensions/IEnumerable.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding>
+            <marker date="1465462863915" expanded="true" signature="6:47" ph="..." />
+            <marker date="1465462863915" expanded="true" signature="79:311" ph="{...}" />
+            <marker date="1465462863915" expanded="true" signature="126:309" ph="{...}" />
+            <marker date="1465462863915" expanded="true" signature="215:303" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MonoForms/ControlDecoretors/ControlVisibleOnPredicate.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MonoForms/ControlDecoretors/ControlVisibilityDecorator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+          <folding>
+            <marker date="1465470216582" expanded="true" signature="6:70" ph="..." />
+            <marker date="1465470216582" expanded="true" signature="109:783" ph="{...}" />
+            <marker date="1465470216582" expanded="true" signature="174:781" ph="{...}" />
+            <marker date="1465470216582" expanded="true" signature="283:337" ph="{...}" />
+            <marker date="1465470216582" expanded="true" signature="398:469" ph="{...}" />
+            <marker date="1465470216582" expanded="true" signature="514:575" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MonoForms/ControlDecoretors/ControlDefaultBehaviour.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MonoForms/ButtonAdapter.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="84" selection-start-line="14" selection-start-column="84" selection-end-line="14" selection-end-column="84" />
+          <folding>
+            <marker date="1465471569804" expanded="true" signature="6:142" ph="..." />
+            <marker date="1465471569804" expanded="true" signature="163:724" ph="{...}" />
+            <marker date="1465471569804" expanded="true" signature="213:722" ph="{...}" />
+            <marker date="1465471569804" expanded="true" signature="358:586" ph="{...}" />
+            <marker date="1465471569804" expanded="true" signature="661:716" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MonoForms/SimpleForm.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="54" column="38" selection-start-line="54" selection-start-column="38" selection-end-line="54" selection-end-column="38" />
+          <folding>
+            <marker date="1465470764081" expanded="true" signature="6:280" ph="..." />
+            <marker date="1465470764081" expanded="true" signature="301:1826" ph="{...}" />
+            <marker date="1465470764081" expanded="true" signature="351:1824" ph="{...}" />
+            <marker date="1465470764081" expanded="true" signature="366:444" ph="private fields" />
+            <marker date="1465470764081" expanded="true" signature="1033:1222" ph="{...}" />
+            <marker date="1465470764081" expanded="true" signature="1364:1506" ph="{...}" />
+            <marker date="1465470764081" expanded="true" signature="1579:1655" ph="{...}" />
+            <marker date="1465470764081" expanded="true" signature="1683:1733" ph="{...}" />
+            <marker date="1465470764081" expanded="true" signature="1764:1818" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MonoForms/AbstractButton.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="35" column="49" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
+          <folding>
+            <marker date="1465471621189" expanded="true" signature="6:184" ph="..." />
+            <marker date="1465471621189" expanded="true" signature="205:2467" ph="{...}" />
+            <marker date="1465471621189" expanded="true" signature="259:2466" ph="{...}" />
+            <marker date="1465471621189" expanded="true" signature="1233:1387" ph="{...}" />
+            <marker date="1465471621189" expanded="true" signature="1512:2460" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MonoForms/Button.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+          <folding>
+            <marker date="1465471533307" expanded="true" signature="19:143" ph="{...}" />
+            <marker date="1465471533307" expanded="true" signature="61:141" ph="{...}" />
+            <marker date="1465471533307" expanded="true" signature="115:135" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MonoForms/ControlDecoretors/ControlVisibleForNTime.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+          <folding>
+            <marker date="1465472218855" expanded="true" signature="52:560" ph="{...}" />
+            <marker date="1465472218855" expanded="true" signature="121:558" ph="{...}" />
+            <marker date="1465472218855" expanded="true" signature="243:289" ph="{...}" />
+            <marker date="1465472218855" expanded="true" signature="338:419" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestProject/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="35" column="62" selection-start-line="35" selection-start-column="62" selection-end-line="35" selection-end-column="62" />
+          <folding>
+            <marker date="1465471938752" expanded="true" signature="6:163" ph="..." />
+            <marker date="1465471938752" expanded="true" signature="6:192" ph="..." />
+            <marker date="1465471938752" expanded="true" signature="6:227" ph="..." />
+            <marker date="1465471938752" expanded="true" signature="250:1222" ph="{...}" />
+            <marker date="1465471938752" expanded="true" signature="270:1220" ph="{...}" />
+            <marker date="1465471938752" expanded="true" signature="316:1214" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

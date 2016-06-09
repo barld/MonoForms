@@ -30,9 +30,10 @@
       </Path>
     </InheritanceLine>
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAEAA=</HashCode>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAACAAAEAA=</HashCode>
       <FileName>LabelAdapter.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="MonoForms.WinFormsAdapter">
     <Position X="3" Y="5.5" Width="1.5" />
@@ -59,6 +60,20 @@
       <FileName>WinformsControlTOControlFactory.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="MonoForms.Button">
+    <Position X="11.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAABAgAAAAICAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Button.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonoForms.ButtonAdapter">
+    <Position X="12" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ButtonAdapter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
   <Interface Name="MonoForms.IForm">
     <Position X="3" Y="1" Width="1.5" />
     <TypeIdentifier>
@@ -69,7 +84,7 @@
   <Interface Name="MonoForms.IControl">
     <Position X="5.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAQAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>IControl.cs</FileName>
     </TypeIdentifier>
   </Interface>

@@ -8,7 +8,7 @@ using MonoForms.Extensions;
 
 namespace MonoForms
 {
-    public class LabelAdapter : Label
+    public class LabelAdapter : Label, IDisposable
     {
         private readonly System.Windows.Forms.Label wLabel;
         public LabelAdapter(System.Windows.Forms.Label wLabel)
@@ -37,6 +37,11 @@ namespace MonoForms
                     base.Text = value;
                 }
             }
+        }
+
+        public void Dispose()
+        {
+            wLabel?.Dispose();
         }
     }
 }

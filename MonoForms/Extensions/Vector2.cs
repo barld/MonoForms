@@ -10,5 +10,6 @@ namespace MonoForms.Extensions
     public static class Vector2Extentsions
     {
         public static Vector2 ToVector2(this System.Drawing.Point point) => new Vector2(point.X, point.Y);
+        public static Vector2 ToVector2(this Rectangle rectangle) => new Vector2(rectangle.X, rectangle.Y);
     }
 }

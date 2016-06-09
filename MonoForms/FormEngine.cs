@@ -16,6 +16,7 @@ namespace MonoForms
         string title = string.Empty;
         Size size;
         private readonly Action<SpriteBatch> onDraw;
+        private readonly Action<float> onUpdate;
 
         public event EventHandler SizeChanged;
 
@@ -45,9 +46,9 @@ namespace MonoForms
             }
         }
 
-        internal FormEngine(Action<SpriteBatch> onDraw) : this("MonoForm", onDraw) { }
+        internal FormEngine(Action<SpriteBatch> onDraw, Action<float> onUpdate) : this("MonoForm", onDraw, onUpdate) { }
 
-        internal FormEngine(string title, Action<SpriteBatch> onDraw) : base()
+        internal FormEngine(string title, Action<SpriteBatch> onDraw, Action<float> onUpdate) : base()
         {
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
@@ -57,6 +58,7 @@ namespace MonoForms
             Window.ClientSizeChanged += Window_ClientSizeChanged;
             Title = title;
             this.onDraw = onDraw;
+            this.onUpdate = onUpdate;
         }
 
         private void Window_ClientSizeChanged(object sender, EventArgs e)
@@ -65,21 +67,30 @@ namespace MonoForms
                 Size = new Size(graphics.GraphicsDevice.Viewport.Width, graphics.PreferredBackBufferHeight);
         }
 
+        public static Texture2D PlainTexture { get; private set; }
+        public Microsoft.Xna.Framework.Color Color { get; set; }
+
         protected override void LoadContent()
         {
             spriteBatch = new SpriteBatch(GraphicsDevice);
+
+            PlainTexture = new Texture2D(this.GraphicsDevice, 1, 1);
+            PlainTexture.SetData(new[] { Microsoft.Xna.Framework.Color.White });
+
             base.LoadContent();
             Fonts.Ariel = Content.Load<SpriteFont>("Arial");
         }
 
         protected override void Update(GameTime gameTime)
         {
+            onUpdate?.Invoke((float)gameTime.ElapsedGameTime.TotalSeconds);
+
             base.Update(gameTime);
         }
 
         protected override void Draw(GameTime gameTime)
         {
-            GraphicsDevice.Clear(Microsoft.Xna.Framework.Color.LightGray);
+            GraphicsDevice.Clear(Color);
 
             spriteBatch.Begin();
             onDraw?.Invoke(spriteBatch);

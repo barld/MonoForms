@@ -29,12 +29,17 @@ namespace MonoForms
         }
 
         public Vector2 Position { get; set; }
+      public bool Visible { get; set; }
 
-        public event EventHandler TextChanged;
+      public event EventHandler TextChanged;
 
         public void DisplayControl(SpriteBatch spriteBatch)
         { 
             spriteBatch.DrawString(Fonts.Ariel, Text, Position, Microsoft.Xna.Framework.Color.Black);
+        }
+
+        public void UpdateControl(float dt)
+        {
         }
     }
 }

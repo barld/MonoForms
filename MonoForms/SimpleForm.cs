@@ -6,6 +6,8 @@ using System.Linq;
 using System.Text;
 using System.Drawing;
 using MonoForms.Collections;
+using MonoForms.Extensions;
+using Color = Microsoft.Xna.Framework.Color;
 
 namespace MonoForms
 {
@@ -36,28 +38,22 @@ namespace MonoForms
             set { FormEngine.Size = value; }
         }
 
-        public ILinkedList<IControl> Controls
-        {
-            get
-            {
-                throw new NotImplementedException();
-            }
-
-            set
-            {
-                throw new NotImplementedException();
-            }
-        }
+        public ILinkedList<IControl> Controls { get; set; }
 
         public SimpleForm()
         {
-            FormEngine = new FormEngine(onDraw);
+            FormEngine = new FormEngine(onDraw,onUpdate);
             FormEngine.SizeChanged += FormEngine_SizeChanged;
+            FormEngine.Color = Color.DarkOrange;
         }
 
-        private void onDraw(SpriteBatch obj)
+        private void onUpdate(float dt) => Controls.ForEach(c => c.UpdateControl(dt));
+
+        private void onDraw(SpriteBatch spriteBatch)
         {
-            throw new NotImplementedException();
+            Controls
+                .Where(c => c.Visible)
+                .ForEach(c => c.DisplayControl(spriteBatch));
         }
 
         private void FormEngine_SizeChanged(object sender, EventArgs e)
